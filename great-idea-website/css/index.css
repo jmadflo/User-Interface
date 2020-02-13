@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -69,12 +69,15 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 * {
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 body {
 	padding: 20px 5%;
+
 }
+
+/* Header */
 
 header {
 	height: 50px;
@@ -108,7 +111,7 @@ img{
 	max-width: 100%;
 }
 
-/*  */
+/* First Section */
 
 section {
 	width: 100%;
@@ -142,18 +145,39 @@ h1 {
 }
 
 /* Middle */
-#middle-top {
+
+#middle-section p {
+	/* Google Fonts Lemonada style */
+	font-family: 'Lemonada', cursive; 
+}
+
+#features {
+	margin-right: 10%;
+}
+
+#middle-top, #middle-bottom {
 	padding: 5%;
 }
-#middle-section.item {
-	
+#middle-top div {
 	width: 40%;
 	display: inline-block;
 }
 
+#middle-bottom div {
+	display: inline-block;
+	width: 28%;
+	margin-right: 4%;
+}
 
 
+
+/* Footer */
+
+footer h2 {
+	padding-top: 25px;
+}
 
 footer #copy-right{
 	padding-left: 40%;
+	padding-bottom: 80px;
 }
