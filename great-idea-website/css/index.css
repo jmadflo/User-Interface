@@ -142,13 +142,23 @@ h1 {
 }
 
 /* Middle */
-#middle-top {
+#middle-top, #middle-bottom {
 	padding: 5%;
 }
-#middle-section.item {
-	
+#middle-top div {
 	width: 40%;
 	display: inline-block;
+}
+
+#middle-bottom div {
+	display: inline-block;
+	width: 28%;
+	margin-right: 4%;
+}
+
+#features {
+	/* width: 40%; */
+	margin-right: 10%;
 }
 
 
