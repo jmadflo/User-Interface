@@ -18,11 +18,12 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -49,7 +50,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -57,10 +58,102 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
+
+
 /* Your code starts here! */
+* {
+	border: 1px solid black;
+}
+
+body {
+	padding: 20px 5%;
+}
+
+header {
+	height: 50px;
+}
+
+nav a {
+	margin: 0 3%;
+	width: 100%;
+	color: grey;
+	text-decoration: none;
+}
+
+
+nav a:hover {
+	color:blue;
+}
+
+#links {
+	width: 70%;
+	display:inline-block;
+}
+
+#logo {
+	display: inline-block;
+	width: 20%;
+	height: 50px;
+
+}
+
+img{
+	max-width: 100%;
+}
+
+/*  */
+
+section {
+	width: 100%;
+}
+
+#first-section {
+	padding-left: 10%;
+}
+
+#first-section div {
+	display: inline-block;
+	width: 42%;
+	text-align: center;
+	padding: 5%;
+}	
+
+
+#first-pic {
+	width: 45%;
+}
+
+#first-pic img {
+	display: inline-block;
+	padding: 0;
+	padding-left: 15%
+}
+
+h1 {
+	font-size: 50px;
+	margin: 0 auto;
+}
+
+/* Middle */
+#middle-top {
+	padding: 5%;
+}
+#middle-section.item {
+	
+	width: 40%;
+	display: inline-block;
+}
+
+
+
+
+footer #copy-right{
+	padding-left: 40%;
+}
